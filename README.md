@@ -1,4 +1,4 @@
-# Project Delta Client
+# Project Delta
 A client program that runs the in the background which is capable of OpenGL graphics and OpenAL audio to be controlled by a central synchronization server for fun. This generally is ment to run on the Windows Operating System, however it should be capable of running just fine on Debian & Ubuntu GNU/Linux as well.
 
 ## What is this?
