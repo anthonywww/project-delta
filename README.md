@@ -8,11 +8,11 @@ This generally is meant to run on the Windows Operating System, however it shoul
 ## What is this?
 This is a fun project I am creating for my CSIS 10A "final project".
 
-Essentially you run this on a large group of computers and it will have them act like a botnet (sound familiar? *cough* Windows 10 *cough*) minus the malicous intentions!
+Essentially you run this on a large group of computers and it will have them act like a botnet (sound familiar? *cough* Windows 10 *cough*) minus the malicious intentions!
 
 All resources and media is kept client-side, such as audio files and images.
 
-This client will be running initially on n number of machines which will each have a \[x\] and \[y\] coordinate assigned to them via cli program parameters on launch. Eg: `java -jar client.jar 4,2` this means that computer is located physically at row\[x\] 4, column\[y\] 2.
+This client will be running initially on n number of machines which will each have a \[x\] and \[y\] coordinate assigned to them via CLI program parameters on launch. Eg: `java -jar client.jar 4,2` this means that computer is located physically at x=4 (columns) and y=2 (rows).
 
 This will allow custom creations of synchronized textures and audio effects to be performed across a array of computers.
 
