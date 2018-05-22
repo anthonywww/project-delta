@@ -60,7 +60,6 @@ public class TexturedModel {
 		GL15.glBindBuffer(GL15.GL_ELEMENT_ARRAY_BUFFER, indexId);
 		GL11.glDrawElements(GL11.GL_TRIANGLES, drawCount, GL11.GL_UNSIGNED_INT, 0);
 		
-		
 		// Unbind indices and buffers
 		GL15.glBindBuffer(GL15.GL_ELEMENT_ARRAY_BUFFER, 0);
 		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, 0);

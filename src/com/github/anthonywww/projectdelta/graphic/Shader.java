@@ -42,8 +42,9 @@ public class Shader {
 		GL20.glAttachShader(program, fragmentShader);
 		
 		// Bind attributes
-		GL20.glBindAttribLocation(program, 0, "verticies");
-		GL20.glBindAttribLocation(program, 1, "texcoords");
+		GL20.glBindAttribLocation(program, 0, "position");
+		GL20.glBindAttribLocation(program, 1, "color");
+		GL20.glBindAttribLocation(program, 2, "texcoord");
 		
 		
 		GL20.glLinkProgram(program);

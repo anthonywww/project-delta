@@ -1,5 +1,11 @@
 @echo off
-:: Change to current working directory
+
+REM Change to current working directory
 cd /D %~dp0
 
-java -jar compiled.jar
+REM launch executable
+java -jar dist/compiled.jar
+
+echo.
+echo ^> Press [ENTER] to quit.
+pause>nul
